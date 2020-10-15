@@ -1,0 +1,9 @@
+name: ChestPazar
+api: 4.0.0
+version: 3.3
+main: Eren5960\Hira\Main
+author: Eren5960
+
+commands:
+  cs:
+    description: ChestShop

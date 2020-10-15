@@ -1,0 +1,6 @@
+name: SG-Core
+version: 0.3.0
+main: StormGames\SGCore\SGCore
+api: 4.0.0
+author: Eren5960
+load: STARTUP

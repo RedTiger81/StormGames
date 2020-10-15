@@ -1,0 +1,8 @@
+# {owner} Pazar sahibi
+# {item_name} Satılan itemin ismi
+# {cost} Satış fiyatı
+# {pb} Para birimi (TL)
+line-1: "§7[§b{owner}§7]"
+line-2: "§f{item_name}"
+line-3: "§6{cost}$"
+line-4: "§2Satın al"

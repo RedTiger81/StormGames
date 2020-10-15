@@ -1,0 +1,98 @@
+{
+  "default": "player",
+  "player": {
+    "format": "",
+    "chat": "%s §8> §7%s",
+    "permissions": [
+      "stormgames.cape.tr_flag",
+      "stormgames.cape.minecon2011",
+      "stormgames.cape.minecon2012",
+      "stormgames.cape.minecon2013",
+      "stormgames.cape.minecon2015",
+      "stormgames.cape.minecon2016"
+    ],
+    "priority": 0
+  },
+  "developer": {
+    "format": "§a§lGeliştirici§r",
+    "chat_format": "%s §8> §f%s",
+    "permissions": [
+      "stormgames.admin",
+      "pocketmine",
+      "stormgames.moderator",
+      "stormgames.chat.bypass"
+    ],
+    "priority": 2000
+  },
+  "owner": {
+    "format": "§4KURUCU",
+    "chat_format": "%s §8> §f%s",
+    "permissions": [
+      "stormgames.admin",
+      "pocketmine",
+      "stormgames.moderator",
+      "stormgames.chat.bypass"
+    ],
+    "priority": 1000
+  },
+  "mod": {
+    "format": "§9Yetkili",
+    "permissions": [
+      "stormgames.moderator",
+      "stormgames.chat.bypass",
+      "pocketmine.command.teleport"
+    ],
+    "priority": 500
+  },
+  "famous": {
+    "format": "§eÜnlü",
+    "permissions": [
+      "stormgames.cape.all",
+      "stormgames.vip",
+      "stormgames.kit.famous"
+    ],
+    "priority": 1
+  },
+  "vip": {
+    "format": "§6VIP",
+    "permissions": [
+      "stormgames.vip",
+      "stormgames.cape.bed",
+      "stormgames.cape.enderman",
+      "stormgames.cape.tnt",
+      "stormgames.kit.vip"
+    ],
+    "priority": 2,
+    "chat_format": "%s §8> §f%s"
+  },
+  "vip+": {
+    "format": "§6VIP§a+",
+    "permissions": [
+      "stormgames.vip+",
+      "stormgames.cape.all",
+      "stormgames.kit.vip+"
+    ],
+    "priority": 3,
+    "chat_format": "%s §8> §f%s"
+  },
+  "mvp": {
+    "format": "§aMVP",
+    "permissions": [
+      "stormgames.mvp",
+      "stormgames.kit.mvp",
+      "stormgames.cape.all"
+    ],
+    "priority": 4,
+    "chat_format": "%s §8> §f%s"
+  },
+  "mvp+": {
+    "format": "§aMVP§6+",
+    "permissions": [
+      "stormgames.mvp+",
+      "stormgames.kit.mvp+",
+      "stormgames.cape.all"
+    ],
+    "priority": 5,
+    "chat_format": "%s §8> §f%s"
+  }
+}

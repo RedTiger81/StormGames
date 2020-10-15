@@ -1,0 +1,8 @@
+name: AsyncExplosion
+main: matcracker\AsyncExplosion\Main
+version: 0.1.0
+api: [4.0.0]
+load: POSTWORLD
+author: matcracker
+description: ""
+website: https://github.com/matcracker/AsyncExplosion

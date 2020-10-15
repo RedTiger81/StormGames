@@ -1,0 +1,7 @@
+#Name of your plugin. This is self-explanatory. Plugin names SHOULD NOT contain spaces.
+name: OtoCS
+main: eren5960\OtoCS\Main
+version: 0.0.1
+api: 4.0.0
+load: startup
+author: eren5960

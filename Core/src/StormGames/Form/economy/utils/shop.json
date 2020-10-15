@@ -1,0 +1,551 @@
+{
+	"building": {
+		"stone": [
+			{"id": 1, "price": 40},
+			{"id": 4, "price": 40},
+			{"id": 1, "meta": 1, "price": 40},
+			{"id": 1, "meta": 2, "price": 40},
+			{"id": 1, "meta": 3, "price": 40},
+			{"id": 1, "meta": 4, "price": 40},
+			{"id": 1, "meta": 5, "price": 40},
+			{"id": 1, "meta": 6, "price": 40},
+			{"id": 48, "price": 45}
+		],
+		"dirt": [
+			{"id": 2, "price": 45},
+			{"id": 3, "price": 45},
+			{"id": 3, "meta": 1, "price": 40},
+			{"id": 110, "price":40},
+			{"id": 243, "price": 45}
+		],
+		"planks": {
+			"planks": [
+				{"id": 5, "price": 30},
+				{"id": 5, "meta": 1, "price": 30},
+				{"id": 5, "meta": 2, "price": 30},
+				{"id": 5, "meta": 3, "price": 30},
+				{"id": 5, "meta": 4, "price": 30},
+				{"id": 5, "meta": 5, "price": 30}
+			],
+			"log": [
+				{"id": 17, "price": 60},
+				{"id": 17, "meta": 1, "price": 120},
+				{"id": 17, "meta": 2, "price": 120},
+				{"id": 17, "meta": 3, "price": 120},
+				{"id": 162, "price": 120},
+				{"id": 162, "meta": 1, "price": 120}
+			]
+		},
+		"sand": [
+			{"id": 12, "price": 40},
+			{"id": 12, "meta": 1, "price": 40},
+			{"id": 24, "price": 40},
+			{"id": 24, "meta": 1, "price": 55},
+			{"id": 24, "meta": 2, "price": 55},
+			{"id": 179, "price": 55},
+			{"id": 179, "meta": 1, "price": 55},
+			{"id": 179, "meta": 2, "price": 55}
+		],
+		"ore": [
+			{"id": 14, "price": 750},
+			{"id": 15, "price": 500},
+			{"id": 16, "price": 250},
+			{"id": 21, "price": 1000},
+			{"id": 56, "price": 2500},
+			{"id": 73, "price": 1000},
+			{"id": 129, "price": 5000},
+			{"id": 153, "price": 150},
+			{"id": 41, "price": 6750},
+			{"id": 42, "price": 67500},
+			{"id": 57, "price": 135000},
+			{"id": 133, "price": 180000},
+			{"id": 22, "price": 22500},
+			{"id": 152, "price": 22500}
+		],
+		"glass": [
+			{"id": 20, "price": 150},
+			{"id": 241, "price":1176 },
+			{"id": 241, "meta": 1, "price": 250},
+			{"id": 241, "meta": 2, "price": 250},
+			{"id": 241, "meta": 3, "price": 250},
+			{"id": 241, "meta": 4, "price":250},
+			{"id": 241, "meta": 5, "price": 250},
+			{"id": 241, "meta": 6, "price": 250},
+			{"id": 241, "meta": 7, "price": 250},
+			{"id": 241, "meta": 8, "price": 250},
+			{"id": 241, "meta": 9, "price": 250},
+			{"id": 241, "meta": 10, "price": 250},
+			{"id": 241, "meta": 11, "price": 250},
+			{"id": 241, "meta": 12, "price": 250},
+			{"id": 241, "meta": 13, "price": 250},
+			{"id": 241, "meta": 14, "price": 250},
+			{"id": 241, "meta": 15, "price": 250},
+			{"id": 102, "price": 75},
+			{"id": 160, "price": 175},
+			{"id": 160, "meta": 1, "price": 175},
+			{"id": 160, "meta": 2, "price": 175},
+			{"id": 160, "meta": 3, "price": 175},
+			{"id": 160, "meta": 4, "price": 175},
+			{"id": 160, "meta": 5, "price": 175},
+			{"id": 160, "meta": 6, "price": 175},
+			{"id": 160, "meta": 7, "price": 175},
+			{"id": 160, "meta": 8, "price": 175},
+			{"id": 160, "meta": 9, "price": 175},
+			{"id": 160, "meta": 10, "price": 175},
+			{"id": 160, "meta": 11, "price": 175},
+			{"id": 160, "meta": 12, "price": 175},
+			{"id": 160, "meta": 13, "price": 175},
+			{"id": 160, "meta": 14, "price": 175},
+			{"id": 160, "meta": 15, "price": 175}
+		],
+		"woolAndCarpet": [
+			{"id": 35, "price": 250},
+			{"id": 35, "meta": 1, "price": 500},
+			{"id": 35, "meta": 2, "price": 500},
+			{"id": 35, "meta": 3, "price": 500},
+			{"id": 35, "meta": 4, "price": 500},
+			{"id": 35, "meta": 5, "price": 500},
+			{"id": 35, "meta": 6, "price": 500},
+			{"id": 35, "meta": 7, "price": 500},
+			{"id": 35, "meta": 8, "price": 500},
+			{"id": 35, "meta": 9, "price": 500},
+			{"id": 35, "meta": 10, "price": 500},
+			{"id": 35, "meta": 11, "price": 500},
+			{"id": 35, "meta": 12, "price": 500},
+			{"id": 35, "meta": 13, "price": 500},
+			{"id": 35, "meta": 14, "price": 500},
+			{"id": 35, "meta": 15, "price": 500},
+			{"id": 171, "price": 100},
+			{"id": 171, "meta": 1, "price": 333},
+			{"id": 171, "meta": 2, "price": 333},
+			{"id": 171, "meta": 3, "price": 333},
+			{"id": 171, "meta": 4, "price": 333},
+			{"id": 171, "meta": 5, "price": 333},
+			{"id": 171, "meta": 6, "price": 333},
+			{"id": 171, "meta": 7, "price": 333},
+			{"id": 171, "meta": 8, "price": 333},
+			{"id": 171, "meta": 9, "price": 333},
+			{"id": 171, "meta": 10, "price": 333},
+			{"id": 171, "meta": 11, "price": 333},
+			{"id": 171, "meta": 12, "price": 333},
+			{"id": 171, "meta": 13, "price": 333},
+			{"id": 171, "meta": 14, "price": 333},
+			{"id": 171, "meta": 15, "price": 333}
+		],
+		"slab": [
+			{"id": 44, "price": 500},
+			{"id": 44, "meta": 1, "price": 500},
+			{"id": 44, "meta": 3, "price": 500},
+			{"id": 44, "meta": 4, "price": 500},
+			{"id": 44, "meta": 5, "price": 500},
+			{"id": 44, "meta": 6, "price": 500},
+			{"id": 44, "meta": 7, "price": 500},
+			{"id": 158, "price": 500},
+			{"id": 158, "meta": 1, "price": 500},
+			{"id": 158, "meta": 2, "price": 500},
+			{"id": 158, "meta": 3, "price": 500},
+			{"id": 158, "meta": 4, "price": 500},
+			{"id": 158, "meta": 5, "price": 500}
+		],
+		"bricks": [
+			{"id": 45, "price": 750},
+			{"id": 98, "price": 750},
+			{"id": 98, "meta": 1, "price": 750},
+			{"id": 98, "meta": 2, "price": 750},
+			{"id": 206, "price": 750},
+			{"id": 215, "price": 750}
+		],
+		"stairs": [
+			{"id": 53, "price": 250},
+			{"id": 67, "price": 250},
+			{"id": 108, "price": 250},
+			{"id": 109, "price": 250},
+			{"id": 114, "price": 250},
+			{"id": 128, "price": 250},
+			{"id": 134, "price": 250},
+			{"id": 135, "price": 250},
+			{"id": 136, "price": 250},
+			{"id": 156, "price": 250},
+			{"id": 163, "price": 250},
+			{"id": 164, "price": 250},
+			{"id": 180, "price": 250},
+			{"id": 203, "price": 250}
+		],
+		"terracotta": {
+			"stained": [
+				{"id": 159, "price": 500},
+				{"id": 159, "meta": 1, "price": 500},
+				{"id": 159, "meta": 2, "price": 500},
+				{"id": 159, "meta": 3, "price": 500},
+				{"id": 159, "meta": 4, "price": 500},
+				{"id": 159, "meta": 5, "price": 500},
+				{"id": 159, "meta": 6, "price": 500},
+				{"id": 159, "meta": 7, "price": 500},
+				{"id": 159, "meta": 8, "price": 500},
+				{"id": 159, "meta": 9, "price": 500},
+				{"id": 159, "meta": 10, "price": 500},
+				{"id": 159, "meta": 11, "price": 500},
+				{"id": 159, "meta": 12, "price": 500},
+				{"id": 159, "meta": 13, "price": 500},
+				{"id": 159, "meta": 14, "price": 500},
+				{"id": 159, "meta": 15, "price": 500}
+			],
+			"glazed": [
+				{"id": 219, "price": 1500},
+				{"id": 220, "price": 1500},
+				{"id": 221, "price": 1500},
+				{"id": 222, "price": 1500},
+				{"id": 223, "price": 1500},
+				{"id": 224, "price": 1500},
+				{"id": 225, "price": 1500},
+				{"id": 226, "price": 1500},
+				{"id": 227, "price": 1500},
+				{"id": 228, "price": 1500},
+				{"id": 229, "price": 1500},
+				{"id": 231, "price": 1500},
+				{"id": 232, "price": 1500},
+				{"id": 233, "price": 1500},
+				{"id": 234, "price": 1500},
+				{"id": 235, "price": 1500}
+			]
+		},
+		"quartz": [
+			{"id": 155, "price": 850},
+			{"id": 155, "meta": 1, "price": 850},
+			{"id": 155, "meta": 2, "price": 850}
+		],
+		"prismarine": [
+			{"id": 168, "price": 1000},
+			{"id": 168, "meta": 1, "price": 1000},
+			{"id": 168, "meta": 2, "price": 1000},
+			{"id": 169, "price": 7500}
+		],
+		"others": [
+			{"id": 19, "price": 500},
+			{"id": 47, "price": 750},
+			{"id": 201, "price": 1000},
+			{"id": 201, "meta": 2, "price": 1000},
+			{"id": 86, "price": 500},
+			{"id": 91, "price": 500},
+			{"id": 49, "price": 1500},
+			{"id": 87, "price": 1000},
+			{"id": 82, "price": 1000},
+			{"id": 88, "price": 1500},
+			{"id": 103, "price": 270},
+			{"id": 121, "price": 1500},
+			{"id": 170, "price": 750},
+			{"id": 49, "price": 5000},
+			{"id": 174, "price": 1500},
+			{"id": 213, "price": 1500},
+			{"id": 214, "price": 1500},
+			{"id": 216, "price": 1500}
+		]
+	},
+	"decoration": {
+		"saplings": [
+			{"id": 6, "price": 150},
+			{"id": 6, "meta": 1, "price": 150},
+			{"id": 6, "meta": 2, "price": 150},
+			{"id": 6, "meta": 3, "price": 150},
+			{"id": 6, "meta": 4, "price": 150},
+			{"id": 6, "meta": 5, "price": 150}
+		],
+		"leaves": [
+			{"id": 18, "price": 75},
+			{"id": 18, "meta": 1, "price": 75},
+			{"id": 18, "meta": 2, "price": 75},
+			{"id": 18, "meta": 3, "price": 75},
+			{"id": 161, "price": 75},
+			{"id": 161, "meta": 1, "price": 75}
+		],
+		"flowers": [
+			{"id": 37, "price": 100},
+			{"id": 38, "price": 100},
+			{"id": 38, "meta": 1, "price": 100},
+			{"id": 38, "meta": 2, "price": 100},
+			{"id": 38, "meta": 3, "price": 100},
+			{"id": 38, "meta": 4, "price": 100},
+			{"id": 38, "meta": 5, "price": 100},
+			{"id": 38, "meta": 6, "price": 100},
+			{"id": 38, "meta": 7, "price": 100},
+			{"id": 38, "meta": 8, "price": 100},
+			{"id": 175, "price": 100},
+			{"id": 175, "meta": 1, "price": 100}
+		],
+		"mushrooms": [
+			{"id": 39, "price": 150},
+			{"id": 40, "price": 150},
+			{"id": 99, "price": 1350},
+			{"id": 100, "price": 1350}
+		],
+		"fences": [
+			{"id": 85, "price": 150},
+			{"id": 85, "meta": 1, "price": 150},
+			{"id": 85, "meta": 2, "price": 150},
+			{"id": 85, "meta": 3, "price": 150},
+			{"id": 85, "meta": 4, "price": 150},
+			{"id": 85, "meta": 5, "price": 150},
+			{"id": 113, "price": 150},
+			{"id": 101, "price": 150},
+			{"id": 139, "price": 150},
+			{"id": 107, "price": 150},
+			{"id": 183, "price": 150},
+			{"id": 184, "price": 150},
+			{"id": 185, "price": 150},
+			{"id": 186, "price": 150},
+			{"id": 187, "price": 150}
+		],
+		"plants": [
+			{"id": 31, "meta": 1, "price": 150},
+			{"id": 31, "meta": 2, "price": 150},
+			{"id": 32, "price": 150},
+			{"id": 81, "price": 150},
+			{"id": 111, "price": 150},
+			{"id": 175, "meta": 2, "price": 150},
+			{"id": 175, "meta": 3, "price": 150}
+		],
+		"furniture": [
+			{"id": 54, "price": 400},
+			{"id": 58, "price": 400},
+			{"id": 61, "price": 400},
+			{"id": 130, "price": 400},
+			{"id": 116, "price": 400},
+			{"id": 145, "price": 400}
+		],
+		"beds": [
+			{"id": 355, "price": 2500},
+			{"id": 355, "meta": 1, "price": 2500},
+			{"id": 355, "meta": 2, "price": 2500},
+			{"id": 355, "meta": 3, "price": 2500},
+			{"id": 355, "meta": 4, "price": 2500},
+			{"id": 355, "meta": 5, "price": 2500},
+			{"id": 355, "meta": 6, "price": 2500},
+			{"id": 355, "meta": 7, "price": 2500},
+			{"id": 355, "meta": 8, "price": 2500},
+			{"id": 355, "meta": 9, "price": 2500},
+			{"id": 355, "meta": 10, "price": 2500},
+			{"id": 355, "meta": 11, "price": 2500},
+			{"id": 355, "meta": 12, "price": 2500},
+			{"id": 355, "meta": 13, "price": 2500},
+			{"id": 355, "meta": 14, "price": 2500},
+			{"id": 355, "meta": 15, "price": 2500}
+		],
+		"heads": [
+			{"id": 397, "price": 5000},
+			{"id": 397, "meta": 1, "price": 5000},
+			{"id": 397, "meta": 2, "price": 5000},
+			{"id": 397, "meta": 3, "price": 5000},
+			{"id": 397, "meta": 4, "price": 5000},
+			{"id": 397, "meta": 5, "price": 25000}
+		],
+		"others": [
+			{"id": 50, "price": 150},
+			{"id": 208, "price": 750},
+			{"id": 65, "price": 150},
+			{"id": 106, "price": 150},
+			{"id": 30, "price": 750},
+			{"id": 321, "price": 750},
+			{"id": 323, "price": 750},
+			{"id": 389, "price": 750},
+			{"id": 390, "price": 150}
+		]
+	},
+	"foodstuffs": {
+		"meat": {
+			"fish": [
+				{"id": 350, "price": 500},
+				{"id": 461, "price": 500},
+				{"id": 462, "price": 500},
+				{"id": 463, "price": 500}
+			],
+			"stew": [
+				{"id": 282, "price": 500},
+				{"id": 459, "price": 500},
+				{"id": 413, "price": 500}
+			],
+			"cooked": [
+				{"id": 366, "price": 500},
+				{"id": 412, "price": 500},
+				{"id": 366, "price": 500},
+				{"id": 320, "price": 500},
+				{"id": 364, "price": 500},
+				{"id": 424, "price": 500}
+			],
+			"others": [
+				{"id": 297, "price": 500},
+				{"id": 357, "price": 500},
+				{"id": 457, "price": 500}
+			]
+		},
+		"fruitAndVegetables": [
+			{"id": 260, "price": 500},
+			{"id": 322, "price": 1500},
+			{"id": 466, "price": 2500},
+			{"id": 360, "price": 600},
+			{"id": 391, "price": 600},
+			{"id": 396, "price": 750},
+			{"id": 392,  "price": 300},
+			{"id": 393,  "price": 300}
+		],
+		"dessert": [
+			{"id": 354, "price": 1500},
+			{"id": 400, "price": 300}
+		],
+		"potions": [
+			{"id": 373, "meta": 5, "price": 2000},
+			{"id": 373, "meta": 6, "price": 3000},
+			{"id": 373, "meta": 9, "price": 2000},
+			{"id": 373, "meta": 10, "price": 3000},
+			{"id": 373, "meta": 11, "price": 3000},
+			{"id": 373, "meta": 12, "price": 2000},
+			{"id": 373, "meta": 14, "price": 2000},
+			{"id": 373, "meta": 15, "price": 3000},
+			{"id": 373, "meta": 16, "price": 3000},
+			{"id": 373, "meta": 17, "price": 2000},
+			{"id": 373, "meta": 19, "price": 2000},
+			{"id": 373, "meta": 21, "price": 2000},
+			{"id": 373, "meta": 28, "price": 2000},
+			{"id": 373, "meta": 29, "price": 2000},
+			{"id": 373, "meta": 30, "price": 3000},
+			{"id": 373, "meta": 31, "price": 3000},
+			{"id": 373, "meta": 32, "price": 3000}
+		]
+	},
+	"tools": {
+		"pickaxes": [
+			{"id": 270, "price": 300},
+			{"id": 274, "price": 900},
+			{"id": 257, "price": 1800},
+			{"id": 285, "price": 3600},
+			{"id": 278, "price": 7200}
+		],
+		"axes": [
+			{"id": 271, "price": 150},
+			{"id": 275, "price": 300},
+			{"id": 258, "price": 900},
+			{"id": 286, "price": 1800},
+			{"id": 279, "price": 3600}
+		],
+		"hoes": [
+			{"id": 290, "price": 150},
+			{"id": 291, "price": 300},
+			{"id": 292, "price": 900},
+			{"id": 294, "price": 1800},
+			{"id": 293, "price": 3600}
+		],
+		"shovels": [
+			{"id": 269, "price": 100},
+			{"id": 273, "price": 200},
+			{"id": 256, "price": 400},
+			{"id": 284, "price": 800},
+			{"id": 277, "price": 1600}
+		],
+		"others": [
+			{"id": 346, "price": 500},
+			{"id": 259, "price": 1000},
+			{"id": 359, "price": 1000},
+			{"id": 345, "price": 1500},
+			{"id": 347, "price": 1500}
+		]
+	},
+	"combat": {
+		"swords": [
+			{"id": 268, "price": 300},
+			{"id": 272, "price": 900},
+			{"id": 267, "price": 1800},
+			{"id": 283, "price": 3600},
+			{"id": 276, "price": 7200}
+		],
+		"armor": {
+			"leather": [
+				{"id": 298, "price": 250},
+				{"id": 299, "price": 400},
+				{"id": 300, "price": 350},
+				{"id": 301, "price": 200}
+			],
+			"chainmail": [
+				{"id": 302, "price": 2000},
+				{"id": 303, "price": 3000},
+				{"id": 304, "price": 2500},
+				{"id": 305, "price": 1500}
+			],
+			"iron": [
+				{"id": 306, "price": 2500},
+				{"id": 307, "price": 4000},
+				{"id": 308, "price": 3500},
+				{"id": 309, "price": 2000}
+			],
+			"gold": [
+				{"id": 314, "price": 3750},
+				{"id": 315, "price": 6000},
+				{"id": 316, "price": 5250},
+				{"id": 317, "price": 3000}
+			],
+			"diamond": [
+				{"id": 310, "price": 12500},
+				{"id": 311, "price": 20000},
+				{"id": 312, "price": 17500},
+ 				{"id": 313, "price": 10000}
+			]
+		},
+		"archery" : [
+			{"id": 261, "price": 1500},
+			{"id": 262, "price": 150}
+		]
+	},
+	"miscellaneous": {
+		"seeds": [
+			{"id": 295, "price": 300},
+			{"id": 361, "price": 300},
+			{"id": 362, "price": 300},
+			{"id": 458, "price": 300}
+		],
+		"dyes": [
+			{"id": 351, "price": 200},
+			{"id": 351, "meta": 1, "price": 200},
+			{"id": 351, "meta": 2, "price": 200},
+			{"id": 351, "meta": 3, "price": 200},
+			{"id": 351, "meta": 4, "price": 200},
+			{"id": 351, "meta": 5, "price": 200},
+			{"id": 351, "meta": 6, "price": 200},
+			{"id": 351, "meta": 7, "price": 200},
+			{"id": 351, "meta": 8, "price": 200},
+			{"id": 351, "meta": 9, "price": 200},
+			{"id": 351, "meta": 10, "price": 200},
+			{"id": 351, "meta": 11, "price": 200},
+			{"id": 351, "meta": 12, "price": 200},
+			{"id": 351, "meta": 13, "price": 200},
+			{"id": 351, "meta": 14, "price": 200},
+			{"id": 351, "meta": 15, "price": 200}
+		],
+		"nether": [
+			{"id": 372, "price": 150},
+			{"id": 399, "price": 150},
+			{"id": 405, "price": 150},
+			{"id": 406, "price": 150}
+		],
+		"paper": [
+			{"id": 338, "price": 300},
+			{"id": 339, "price": 300},
+			{"id": 340, "price": 300},
+			{"id": 386, "price": 300}
+		],
+		"zoic": [
+			{"id": 287, "price": 50},
+			{"id": 288, "price": 50},
+			{"id": 289, "price": 50},
+			{"id": 341, "price": 500},
+			{"id": 344, "price": 50}
+		],
+		"others": [
+			{"id": 280, "price": 30},
+			{"id": 369, "price": 150},
+			{"id": 281, "price": 30},
+			{"id": 296, "price": 150},
+			{"id": 332, "price": 45},
+			{"id": 352, "price": 200},
+			{"id": 353, "price": 30},
+			{"id": 368, "price": 5000}
+		]
+	}
+}
